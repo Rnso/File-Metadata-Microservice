@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>File Metadata- MS</title>
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="container">
+  <div class="text-center">
+    <h2>File Metadata Microservice</h2>
+  </div>
+  <div>
+    <form class="form-inline" action="/upload" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+    <label>File :</label>
+    <input type="file" name= "uploadedFile" id="uploadedFile">
+  </div>
+      <button type="submit">
+        Submit
+      </button>
+    </form>
+  </div>   
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
